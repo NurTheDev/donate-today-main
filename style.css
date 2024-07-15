@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+/* heading section star form here */
+.header_bg {
+    background: url('/images/donation10.jpg');
+    width: 100%;
+    height: 670px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.blank {
+    background: linear-gradient(to top, rgba(18, 18, 18, 0.7) 0%, rgba(18, 18, 18, 0.3) 100%);
+    position: absolute;
+    width: 100%;
+    height: 670px;
+    top: 0;
+}
+
+.header_container {
+    position: relative;
+    padding: 20px;
+    top: 35%;
+}
+.heading_title {
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    width: 825px;
+    margin: auto;
+}
+.heading_description{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    width: 690px;
+    margin: auto;
+}
+.button_container{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn{
+    width: 160px;
+    padding: 16px 12px;
+    border-radius: 5px;
+    background: #FF5959;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+/* heading section End */
+/* Donate Today section star form here */
+.donate_title{
+    color: #121212;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donate_descrip{
+    width: 690px;
+    margin: auto;
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.donate_amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin-top: 50px;
+}
+.amount{
+    width: 136px;
+    height: 123px;
+    text-align: center;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#highligh_taka{
+    border: 2px solid #FF5959;
+    background-color: #fee;
+    color: #FF5959;
+}
+.custom_amount{
+   display: flex;
+   justify-content: center;
+   margin-top: 60px;
+   color: #FF5959;
+   font-size: 25px;
+   font-weight: 700;
+   text-shadow: 1px 1px 10px #aeacac;
+}
+#your_amount{
+    padding: 10px;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500px;
+    box-shadow: 2px 2px 10px 4px #FF5959;
+}
+/*  Donate Today section End here */
+
+/* our Donate plan star fom here */
+.donation_benifi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+.benifit_conatiner{
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 22px 0px;
+}
+.benefit_title{
+    color: #121212;
+    font-size: 24px;
+    font-weight: 600px;
+    text-transform: capitalize;
+}
+.benefit_descrip{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+}
+#color1{
+    background: rgba(79, 157, 166, 0.10);
+}
+#color2{
+    background: rgba(255, 89, 89, 0.10); 
+}
+#color3{
+    background: #FFF4D6;
+}
+.benefit_img{
+    width: 58px;
+}
+/* our Donate plan End here */
+
+/*Helping Section start from here */
+.help{
+    display: flex;
+    gap: 83px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+.help_img{
+    width: 680px;
+    height: 680px;
+}
+.help_title{
+    width: 490px;
+    color: #121212;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.help_left{
+    width: 493px;
+    height: 357px;
+}
+.help_descrip{
+    width: 480px;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400px;
+}
+#extra_design_btn{
+    width: 230px;
+}
+.updates{
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.update_title{
+    color: #121212;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.update_descrip{
+    color: #707070;
+    width: 690px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.input{
+    width: 610px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF4D6;
+    margin: auto;
+}
+.email{
+    width: 275px;
+    height: 28px;
+    border-radius: 5px 0px 0px 5px;
+    background: #d9d9d9;
+    padding: 14px;
+    border: none;
+    color: #aa9f9f;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Subscribe{
+    width: 157px;
+    height: 28px;
+    border: none;
+    background: #FF5959;
+    border-radius:  0px 5px 5px 0px;
+    padding: 14px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Helping Section end here */
+footer{
+    width: 100%;
+    background-color: #0B0D17;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.footer_title{
+    color: #FF5959;
+    font-family: lobster;
+    font-size: 36px;
+    font-weight: 400px;
+    letter-spacing: 0.5px;
+}
+.descrip{
+    color: #d9dbe1;
+    font-size: 14px;
+    font-weight: 400px;
+    text-align: center;
+}
